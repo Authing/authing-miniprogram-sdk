@@ -1,0 +1,46 @@
+{
+  "name": "authing-miniprogram-sdk-cli",
+  "version": "0.0.1-alpha.0",
+  "description": "AuthingMove CLI, convert wechat miniprogram syntax into into multi terminal miniapp & framework & quickapp",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "node ./scripts/build.js --watch",
+    "prod": "node ./scripts/build.js",
+    "lint": "eslint --ext .ts src/**.ts",
+    "lint:fix": "eslint --fix --ext .ts src/**.ts"
+  },
+  "dependencies": {
+    "@authing/authingmove-api-proxy": "^0.0.1",
+    "@authing/authingmove-core": "^0.0.1"
+  },
+  "devDependencies": {
+    "@authing/authingmove-webpack-plugin": "^0.0.1",
+    "chalk": "^2.3.2",
+    "loader-utils": "^2.0.2",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0",
+    "typescript": "4.2.2",
+    "prettier": "^2.5.1",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authing/authing-miniprogram-sdk-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Authing/authing-miniprogram-sdk-cli/issues"
+  },
+  "homepage": "https://github.com/Authing/authing-miniprogram-sdk-cli#readme"
+}

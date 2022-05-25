@@ -1,1 +1,1 @@
-# authing-miniprogram-sdk
+# authing-miniprogram-sdk-cli
