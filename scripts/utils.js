@@ -11,3 +11,5 @@ exports.parseArgv = function parseArgv () {
 exports.resolve = function resolve (dir, file = '') {
   return path.resolve(__dirname, '../', dir, file)
 }
+
+exports.getArgsFromTerminal = arg => process.env[`npm_config_${arg}`]

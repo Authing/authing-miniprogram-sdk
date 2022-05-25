@@ -9,14 +9,10 @@ const getWebpackConfig = require('./getWebpackConfig')
 
 const { watch = false, modes = platforms } = parseArgv()
 
-// please change version in package.json, run build after
-const version = require('../package.json').version
-
 const webpackConfigs = modes.reduce((configs, mode) => {
   const options = {
     __authing_move_src_mode__: 'wx',
-    __authing_move_mode__: mode,
-    version
+    __authing_move_mode__: mode
   }
   return configs.concat(getWebpackConfig(options))
 }, [])

@@ -10,36 +10,32 @@ const storageRes = wx
       a: 1,
       b: 2,
       c: 3,
-      d: 4,
-      e: 5
+      d: 4
     },
     success: res => {
       console.log('wx.setStorage success: ', res)
     }
   })
-  .then(res => {
-    console.log('wx.setStorage then: ', res)
-  })
 
 console.log('storageRes: ', storageRes)
 
-// wx.scanCode({
-//   success: res => {
-//     console.log('wx.scanCode: ', res)
-//   }
-// })
-
-AuthingMove.request({
-  url: 'https://api.github.com/users/zhaoyiming0803',
-  responseType: 'text',
-  success: res => {
-    console.log('AuthingMove.request success: ', res)
-  },
-  fail: res => {
-    console.log('AuthingMove.request fail: ', res)
-  }
+wx.getStorage({
+  key: 'ssdf'
 }).then(res => {
-  console.log('AuthingMove.request then: ', res)
+  console.log('wx.getStorage then: ', res)
+}).catch(res => {
+  console.log('wx.getStorage catch: ', res)
+})
+
+wx.scanCode({}).then(res => {
+  console.log('wx.scanCode then: ', res)
+})
+
+wx.request({
+  url: 'https://api.github.com/users/zhaoyiming0803',
+  responseType: 'text'
+}).then(res => {
+  console.log('wx.request then: ', res)
 })
 
 wx.login({
@@ -48,4 +44,4 @@ wx.login({
   }
 })
 
-export default AuthingMove
+export default {}
