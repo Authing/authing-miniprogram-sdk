@@ -1,7 +1,7 @@
 {
   "name": "authing-miniprogram-sdk-cli",
   "version": "0.0.1-alpha.0",
-  "description": "AuthingMove CLI, convert wechat miniprogram syntax into into multi terminal miniapp & framework & quickapp",
+  "description": "AuthingMove CLI, convert wechat miniprogram syntax into into multi platform miniapps & frameworks & quickapp",
   "main": "src/index.ts",
   "module": "src/index.ts",
   "scripts": {
