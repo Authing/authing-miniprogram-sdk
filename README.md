@@ -11,8 +11,10 @@ import apiProxy from '@authing/authingmove-api-proxy'
 AuthingMove.use(apiProxy)
 
 // your codes, use wechat miniprogram syntax
-wx.request({})
-wx.setStorage({})
+// support ts type
+// all methods return 'Promise'
+wx.request({}).then(res => {})
+wx.setStorage({}).catch(res => {})
 // ..............
 ```
 
