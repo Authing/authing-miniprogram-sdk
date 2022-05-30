@@ -4,7 +4,7 @@ AuthingMove CLI, convert wechat miniprogram syntax into multi platform miniapps 
 
 ## Usage
 ```
-// import AuthingMove runtime package
+// import AuthingMove runtime packages
 import AuthingMove from '@authing/authingmove-core'
 import apiProxy from '@authing/authingmove-api-proxy'
 
