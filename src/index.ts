@@ -28,9 +28,9 @@ wx.getStorage({
     console.log('wx.getStorage catch: ', res)
   })
 
-wx.scanCode({}).then(res => {
-  console.log('wx.scanCode then: ', res)
-})
+// wx.scanCode({}).then(res => {
+//   console.log('wx.scanCode then: ', res)
+// })
 
 wx.request({
   url: 'https://api.github.com/users/zhaoyiming0803',
