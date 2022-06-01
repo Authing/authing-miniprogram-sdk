@@ -10,10 +10,7 @@ module.exports = function getWebpackConfig (options) {
   const entry = resolve('src', 'index.ts')
   const output = {
     filename: `bundle-${__authing_move_mode__.toLowerCase()}.js`,
-    path: resolve('dist'),
-    library: {
-      type: 'module'
-    }
+    path: resolve('dist')
   }
   const plugins = [
     new webpack.DefinePlugin({
