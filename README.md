@@ -1,6 +1,6 @@
-# authing-miniprogram-sdk-cli
+# authingmove-template
 
-AuthingMove CLI, convert wechat miniprogram syntax into multi platform miniapps & frameworks & quickapp
+AuthingMove, convert wechat miniprogram syntax into multi platform miniapps & frameworks & quickapp
 
 ## Usage
 ```
