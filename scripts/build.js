@@ -25,7 +25,7 @@ try {
 
 readyGo()
 
-async function readyGo () {
+function readyGo () {
   const ret = webpackConfigs.reduce((ret, config) => {
     return ret.concat(
       Promise.resolve().then(() => build(config))
