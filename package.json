@@ -12,11 +12,11 @@
     "release": "node scripts/release.js"
   },
   "dependencies": {
-    "@authing/authingmove-api-proxy": "^0.0.5",
-    "@authing/authingmove-core": "^0.0.5"
+    "@authing/authingmove-api-proxy": "^0.0.6",
+    "@authing/authingmove-core": "^0.0.6"
   },
   "devDependencies": {
-    "@authing/authingmove-webpack-plugin": "^0.0.5",
+    "@authing/authingmove-webpack-plugin": "^0.0.6",
     "@babel/plugin-transform-runtime": "^7.16.10",
     "@babel/preset-env": "^7.16.11",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
