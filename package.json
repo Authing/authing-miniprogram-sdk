@@ -8,8 +8,7 @@
     "dev": "node ./scripts/build.js --watch",
     "prod": "node ./scripts/build.js",
     "lint": "eslint --ext .ts src/**.ts",
-    "lint:fix": "eslint --fix --ext .ts src/**.ts",
-    "release": "node scripts/release.js"
+    "lint:fix": "eslint --fix --ext .ts src/**.ts"
   },
   "dependencies": {
     "@authing/authingmove-api-proxy": "^0.0.6",

@@ -16,16 +16,6 @@ jobs:
           node-version: 16.13.1
           registry-url: https://registry.npmjs.org/
           
-      - name: before scripts
-        run: |
-          echo "Current user.name: ${{ github.event.inputs.name }}"
-          echo "Current user.email: ${{ github.event.inputs.email }}"
-      
-      - name: set git config
-        run: |
-          git config --global user.email ${{ github.event.inputs.email }}
-          git config --global user.name ${{ github.event.inputs.name }}
-          
       - name: install package
         run: |
           npm ci
