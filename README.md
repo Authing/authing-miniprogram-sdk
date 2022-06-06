@@ -34,7 +34,7 @@ For questions and support please use the [official forum](https://forum.authing.
 - Fork it
 - Create your feature branch (git checkout -b my-new-feature)
 - Commit your changes (git commit -am 'Add some feature')
-- Push to the branch (git push origin my-new-feature)
+- Push to the branch (git push -u origin my-new-feature)
 - Create new Pull Request
 
 ## LICENSE
