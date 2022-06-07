@@ -10,6 +10,10 @@
 
 <br />
 
+<div>You can use <a taraget="_blank" href="https://github.com/Authing/authingmove-cli">CLI</a> to create projects quickly. In the future, we will add more personalized functions through CLI .</div>
+
+<br />
+
 ## Usage
 ```
 // Step 1:
@@ -51,6 +55,6 @@ For questions and support please use the [official forum](https://forum.authing.
 - Push to the branch (git push -u origin my-new-feature)
 - Create new Pull Request
 
-## LICENSE
+## License
 
 MIT
