@@ -11,11 +11,11 @@
     "lint:fix": "eslint --fix --ext .ts src/**.ts"
   },
   "dependencies": {
-    "@authing/authingmove-api-proxy": "^0.0.6",
-    "@authing/authingmove-core": "^0.0.6"
+    "@authing/authingmove-api-proxy": "^0.0.7",
+    "@authing/authingmove-core": "^0.0.7"
   },
   "devDependencies": {
-    "@authing/authingmove-webpack-plugin": "^0.0.6",
+    "@authing/authingmove-webpack-plugin": "^0.0.7",
     "@babel/plugin-transform-runtime": "^7.16.10",
     "@babel/preset-env": "^7.16.11",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
