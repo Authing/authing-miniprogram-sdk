@@ -1,3 +1,16 @@
+// all modes:
+// 'wx', 'ali', 'baidu', 'qq', 'tt', 'jd', 'ks', 'qa_webview', 'qa_ux', 'Mpx', 'Taro', 'uni'
+
+/**
+ * if has no "modes" param, default build all modes
+ */
+
+// development mode:
+// npm run dev modes=wx,ali,.....
+
+// production mode:
+// npm run prod modes=wx,ali,baidu,tt......
+
 const rm = require('rimraf')
 const chalk = require('chalk')
 
