@@ -25,7 +25,10 @@ import apiProxy from '@authing/authingmove-api-proxy'
 AuthingMove.use(apiProxy)
 
 // Step 2:
-// Write your codes, use wechat miniprogram syntax
+// Write your codes
+// the usage is consistent with the wechat miniprogram API
+
+// In addition:
 // support ts type
 // all methods return 'Promise'
 
