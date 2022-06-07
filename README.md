@@ -29,9 +29,19 @@ AuthingMove.use(apiProxy)
 // support ts type
 // all methods return 'Promise'
 
-wx.request({}).then(res => {})
+AuthingMove.request({}).then(res => {})
 
-wx.setStorage({}).catch(res => {})
+AuthingMove.setStorage({}).catch(res => {})
+AuthingMove.getStorage({}).catch(res => {})
+AuthingMove.removeStorage({}).catch(res => {})
+AuthingMove.clearStorage({}).then(res => {})
+
+AuthingMove.login().then(res => {})
+
+// ------- You can also use callback rather than Promise -------
+AuthingMove.scanCode({
+  success: res => {}
+})
 
 // ..............
 ```

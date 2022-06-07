@@ -3,7 +3,7 @@ import apiProxy from '@authing/authingmove-api-proxy'
 
 AuthingMove.use(apiProxy)
 
-const storageRes = wx.setStorage({
+const storageRes = AuthingMove.setStorage({
   key: 'setStorageKey',
   data: {
     a: 1,
@@ -13,34 +13,34 @@ const storageRes = wx.setStorage({
     e: 5
   },
   success: res => {
-    console.log('wx.setStorage success: ', res)
+    console.log('AuthingMove.setStorage success: ', res)
   }
 })
 
 console.log('storageRes: ', storageRes)
 
-wx.getStorage({
+AuthingMove.getStorage({
   key: 'ssdf'
 })
   .then(res => {
-    console.log('wx.getStorage then: ', res)
+    console.log('AuthingMove.getStorage then: ', res)
   })
   .catch(res => {
-    console.log('wx.getStorage catch: ', res)
+    console.log('AuthingMove.getStorage catch: ', res)
   })
 
-// wx.scanCode({}).then(res => {
-//   console.log('wx.scanCode then: ', res)
+// AuthingMove.scanCode({}).then(res => {
+//   console.log('AuthingMove.scanCode then: ', res)
 // })
 
-wx.request({
+AuthingMove.request({
   url: 'https://api.github.com/users/zhaoyiming0803',
   responseType: 'text'
 }).then(res => {
-  console.log('wx.request then: ', res)
+  console.log('AuthingMove.request then: ', res)
 })
 
-wx.login({
+AuthingMove.login({
   success: res => {
     console.log('-------: ', res)
   }
