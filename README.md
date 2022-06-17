@@ -71,3 +71,8 @@ For questions and support please use the [official forum](https://forum.authing.
 ## License
 
 MIT
+
+## Links
+
+- [AuthingMove](https://github.com/Authing/AuthingMove)
+- [eslint-plugin-authing-nestjs](https://github.com/authing/eslint-plugin-authing-nestjs/)
