@@ -6,7 +6,11 @@ const AuthingMoveWebpackPlugin = require('@authing/authingmove-webpack-plugin')
 const { resolve } = require('./utils')
 
 module.exports = function getWebpackConfig (options) {
-  const { __authing_move_src_mode__, __authing_move_mode__ } = options
+  const {
+    __authing_move_src_mode__, 
+    __authing_move_mode__, 
+    compilerMode 
+  } = options
   const entry = resolve('src', 'index.ts')
   const output = {
     filename: `bundle-${__authing_move_mode__.toLowerCase()}.js`,
@@ -24,6 +28,7 @@ module.exports = function getWebpackConfig (options) {
   ]
 
   return merge({}, webpackBaseConfig, {
+    mode: compilerMode,
     entry,
     output,
     plugins

@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'none',
   output: {
     library: {
       type: 'module'
