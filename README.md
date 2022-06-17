@@ -10,7 +10,7 @@
 
 <br />
 
-<div>You can use <a taraget="_blank" href="https://github.com/Authing/authingmove-cli">CLI</a> to create projects quickly. In the future, we will add more personalized functions through CLI .</div>
+<div>You can use <a taraget="_blank" href="https://github.com/Authing/AuthingMove#quick-start">CLI</a> to create projects quickly. In the future, we will add more personalized functions through CLI .</div>
 
 <br />
 
