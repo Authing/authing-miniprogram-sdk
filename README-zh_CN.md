@@ -6,11 +6,11 @@
 
 简体中文 | [English](https://github.com/Authing/authingmove-template/blob/master/README.md) |
 
-<div>AuthingMove 是一款小程序 API 转换器，基于微信小程序 API 语法写一份代码，可同时被编译转换适配其他小程序平台 & 小程序框架 & 快应用</div>
+<div>AuthingMove 是一款小程序 API 转换器，基于微信小程序 API 语法写一份代码，可同时被编译转换适配其他小程序平台 & 小程序框架 & 快应用。</div>
 
 <br />
 
-<div>你可以使用 <a taraget="_blank" href="https://github.com/Authing/AuthingMove#quick-start">CLI</a> 快速创建一个项目. 接下来，我们将会添加更多的功能 .</div>
+<div>你可以使用 <a taraget="_blank" href="https://github.com/Authing/AuthingMove#quick-start">CLI</a> 快速创建一个项目. 接下来，我们将会添加更多的功能。</div>
 
 ## 使用方式
 ```
