@@ -1,18 +1,16 @@
-# authingmove-template
-
 <div>
-  <img width="300" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
+  <img width="250" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
 </div>
 
 <br />
+
+English | [简体中文](https://github.com/Authing/authingmove-template/blob/master/README-zh_CN.md) |
 
 <div>AuthingMove is a miniapp API converter, based on wechat miniprogram syntax, be converted into multi platform miniapps & frameworks & quickapp.</div>
 
 <br />
 
 <div>You can use <a taraget="_blank" href="https://github.com/Authing/AuthingMove#quick-start">CLI</a> to create projects quickly. In the future, we will add more personalized functions through CLI .</div>
-
-<br />
 
 ## Usage
 ```
@@ -70,7 +68,9 @@ For questions and support please use the [official forum](https://forum.authing.
 
 ## License
 
-MIT
+[MIT](https://github.com/Authing/authingmove-template/blob/master/LICENSE)
+
+Copyright (c) 2022 Authing
 
 ## Links
 
