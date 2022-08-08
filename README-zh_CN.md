@@ -1,10 +1,10 @@
-<div>
+<div align=center>
   <img width="250" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
 </div>
 
 <br />
 
-简体中文 | [English](https://github.com/Authing/authingmove-template/blob/master/README.md) |
+简体中文 | [English](https://github.com/Authing/authingmove-template/blob/master/README.md)
 
 <div>AuthingMove 是一款小程序 API 转换器，基于微信小程序 API 语法写一份代码，可同时被编译转换适配其他小程序平台 & 小程序框架 & 快应用。</div>
 
