@@ -1,10 +1,10 @@
-<div>
+<div align=center>
   <img width="250" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
 </div>
 
 <br />
 
-English | [简体中文](https://github.com/Authing/authingmove-template/blob/master/README-zh_CN.md) |
+English | [简体中文](https://github.com/Authing/authingmove-template/blob/master/README-zh_CN.md)
 
 <div>AuthingMove is a miniapp API converter, based on wechat miniprogram syntax, be converted into multi platform miniapps & frameworks & quickapp.</div>
 
