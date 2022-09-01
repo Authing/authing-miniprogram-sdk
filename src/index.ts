@@ -3,6 +3,12 @@ import apiProxy from '@authing/authingmove-api-proxy'
 
 AuthingMove.use(apiProxy)
 
+AuthingMove.chooseImage({
+  count: 1
+}).then(res => {
+  console.log('AuthingMove.chooseImage res: ', res)
+})
+
 const storageRes = AuthingMove.setStorage({
   key: 'setStorageKey',
   data: {
