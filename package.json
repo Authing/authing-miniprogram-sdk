@@ -38,7 +38,7 @@
     "url": "git+https://github.com/Authing/authingmove-template.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Authing/authingmove-template/issues"
   },
